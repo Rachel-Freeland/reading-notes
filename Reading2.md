@@ -6,43 +6,43 @@ Day 2's chapters cover manipulating text in headings, paragraphs, font styles, a
 
 **Building Structure**
 
-HTML has 6 **heading "levels"** beginning with \<h1\> all the way to \<h6\> with the headings getting smaller with each increase in the heading number.
+HTML has 6 **heading "levels"** beginning with `<h1>` all the way to `<h6>` with the headings getting smaller with each increase in the heading number.
 
-**Paragraphs** are will start on a new line and the \<p\> and the \</p\> tags are used.
+**Paragraphs** are will start on a new line and the `<p>` and the `</p>` tags are used.
 
-**Bold** text can be accomplished through surrounding the desired text to be bolded with \<b\> and the \</b\> tags.
+**Bold** text can be accomplished through surrounding the desired text to be bolded with `<b>` and the `</b>` tags.
 
-***Italics*** is accomplished through surrounding the desired text to be italicized with the \<i\> and the \</i\> tags.
-The \<sup\> and \</sup\> tags surround text that should appear as a **superscript** while the \<sub\> and \</sub\> tags encase text that should appear as **subscript**.
+***Italics*** is accomplished through surrounding the desired text to be italicized with the `<i>` and the `</i>` tags.
+The `<sup>` and `</sup>` tags surround text that should appear as a **superscript** while the `<sub>` and `</sub>` tags encase text that should appear as **subscript**.
 
 **Whitespace** can be used by web page authors to make their code more readable. However, whenever a browser comes across 2 or more spaces next to each other, it only shows 1 space. Also, if it comes across a line break, that is treated as a single space as well. A.K.A. ***Whitespace collapsing***
 
-If you need to **add a new line** to a paragraph section, you can use the \<br /\> tag. A **horizontal rule** can be used to create a break between themes and uses the \<hr /\> tag.
+If you need to **add a new line** to a paragraph section, you can use the `<br />` tag. A **horizontal rule** can be used to create a break between themes and uses the `<hr />` tag.
 
 - Note: elements that have only one tag are known as ***empty elements***
 
 ## Semantics
 
-To mark text of **strong** importance, it is surrounded by \<strong\> and \</strong\> tags and browsers typically render it as bold text.
+To mark text of **strong** importance, it is surrounded by `<strong>` and `</strong>` tags and browsers typically render it as bold text.
 
-To show **emphasis** in the text, surround the desired text to have emphasis with the \<em\> and \</em\> tags. The browser will render this text in italics.
+To show **emphasis** in the text, surround the desired text to have emphasis with the `<em>` and `</em>` tags. The browser will render this text in italics.
 
 **Quotes** can be handled in 2 ways:
 
-- For longer quotes, you can use the \<blockquote\> and \</blockquote\> tags. This particular way of marking a quote indents the text. _Note: Do not use this just to indent a quote... use CSS to accomplished that task._
-- For shorter quotes, you can use the \<q\> and \</q\> tags. This particular way surrounds the text in quote marks.
+- For longer quotes, you can use the `<blockquote>` and `</blockquote>` tags. This particular way of marking a quote indents the text. _Note: Do not use this just to indent a quote... use CSS to accomplished that task._
+- For shorter quotes, you can use the `<q> and `</q>` tags. This particular way surrounds the text in quote marks.
 
-**Abbreviations and Acronyms** can both be used with the \<abbr\> and \</abbr\> tags from HTML5 and going forward. _If working in an older HTML, the \<acroynm\> and \</acronym\> tags can be used._
+**Abbreviations and Acronyms** can both be used with the `<abbr>` and `</abbr>` tags from HTML5 and going forward. _If working in an older HTML, the `<acroynm>` and `</acronym>` tags can be used._
 
-Work can be **cited** through the use of the \<cite\> and \</cite\> tags. The contents of the tags will be rendered in italics and can be used to indicate where the citation cam from. This should **NOT** be used for a person's name.
+Work can be **cited** through the use of the `<cite>` and `</cite>` tags. The contents of the tags will be rendered in italics and can be used to indicate where the citation cam from. This should **NOT** be used for a person's name.
 
-To mark the **defining instance of** a new term, surround the term to be defined with the \<dfn\> and \</dfn\> tags. Some browsers show the defined content in italics however, Safari and Chrome do not change the appareance of the text.
+To mark the **defining instance of** a new term, surround the term to be defined with the `<dfn>` and `</dfn>` tags. Some browsers show the defined content in italics however, Safari and Chrome do not change the appareance of the text.
 
-**Author Details** are containd in the \<address\> and \</address\> tags. Browsers often render the text inside the tags in italics. The element is used to contain the contact details of the author. 
+**Author Details** are containd in the `<address>` and `</address>` tags. Browsers often render the text inside the tags in italics. The element is used to contain the contact details of the author. 
 
-To show content that has been **inserted** into a document, use the \<ins\> and \</ins\> tags. The inserted text is usually underlined. To mark the **deleted** text, use the \<del\> and \</del\> tags. The text marked as deleted is shown with a line through it.
+To show content that has been **inserted** into a document, use the `<ins>` and `</ins>` tags. The inserted text is usually underlined. To mark the **deleted** text, use the `<del>` and `</del>` tags. The text marked as deleted is shown with a line through it.
 
-To mark text that is no longer accurate or relevant, use the \<s\> and the \</s\> tags. This will create a single line through the outdated or inaccurate information.
+To mark text that is no longer accurate or relevant, use the `<s>` and the `</s>` tags. This will create a single line through the outdated or inaccurate information.
 
 ## Understaning CSS
 
@@ -52,7 +52,7 @@ To mark text that is no longer accurate or relevant, use the \<s\> and the \</s\
   - a _selector_ such as 'p' followed by an opening curly brace followed by the declaration.
   - a _declaration_  uses the property desired followed by the value such as, 'font-family: Arial;' followed by the closing curly brace.
 
-When using an **external CSS** document it must be linked to the HTML file throught the use of the \<link\> tag that is an empty tag meaning that it is a self-closing tag. This tag should contain 3 attributes:
+When using an **external CSS** document it must be linked to the HTML file throught the use of the `<link>` tag that is an empty tag meaning that it is a self-closing tag. This tag should contain 3 attributes:
 
 - _href_ which specifies the path to the file
 - _type_ the value for a CSS file should be set to "text/css"
