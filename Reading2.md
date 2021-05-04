@@ -83,7 +83,7 @@ If you desire an **internal CSS** style then, you place the CSS rules for the pa
 
 ## JavaScript Basics
 
-Scripts are like a recipe and are made up of a series of steps similar to that of a recipe.
+Each script is like a set of instructions.
 
 Each step is known as a **statment**
 
@@ -98,10 +98,15 @@ Comments should be used to explain what your code does.
 
 A variable must be declared before using it. A
 variable is declared by using the keyword, **var**. For ex.
-  var quantity;
 
-After a variable is declared, you can then assign a value to it. For ex,
-  quatity = 3;
+  ```
+  var quantity;
+  ```
+
+After a variable is declared, you can then assign a value to it. For ex.
+  ```
+  let quatity = 3;
+  ```
   
 ## Data Types
 
@@ -136,7 +141,7 @@ After a variable is declared, you can then assign a value to it. For ex,
 
 ## Decisions & Loops
 
-Conditional statements allow your code to make decisions about what should happen next.
+Conditional statements allow your code to make decisions about what should or should not happen next.
 
 Comparison operators and Logical Operators are used to evaluate and compare the condtional statements.
 
@@ -164,8 +169,10 @@ Comparison operators and Logical Operators are used to evaluate and compare the 
 An _if_ statement evaluates a condition and if it evaluates to _true_ then, the statements in the code block will execute.
 An example of an _if_ statement:
 
+  ```
   if \(userName == 'Bob'\)
     \{
       congratulate\(\);
     \}
+  ```  
 
