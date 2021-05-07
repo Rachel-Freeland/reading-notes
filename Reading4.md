@@ -83,26 +83,74 @@ Relative URLs are considered shorthand because you do not have to include the do
 
 - CSS treats each HTML element as if it is in its own box.
 - The box is either block-level box or an inline box.
+  - Block-Level Elements:
+    - \<h1\>
+    - \<p\>
+    - \<ul\>
+    - \<li\>
+    <br />
+  - Inline Elements
+    - \<img\>
+    - \<b\>
+    - \<i\>
 - If one block-level box contains another block-level box then, the outer box is considered a **containing** or **parent** element.
 
-### Controlling the position of elements
+<h3>Controlling the position of elements</h3>
 
-Positioning schemes:
+<h4>Positioning schemes:</h4>
+<p>Allows the ability to control the layout of the page. Use the <i>position</i> property in CSS to specify the positioning of an element.
+<b>Note:</b> You may also use the <i>float</i> property in combiniation with one of these poisitions.
 
 - Normal flow
 
   - Every block-level element starts on a _new_ line and are stacked vertically on each other.
   - Even if the width of the boxes is small enough to allow them to appear side-by-side, they will still stack vertically. ***Note: This is the default behavior***
+  - Each <b><i>block-level</i></b> element sits on top of the next one. This the **default** so, does not require a CSS property.
+
+    Proper syntax concerning normal flow would be:
+
+    ```css
+    position: static;
+    ```
 
 - Relative positioning
 
   - This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been.
   - This does not effect the position of other surrounding elements.
+  - Relative positioning moves an element to where it would have been in normal flow.
+
+  - Using the offest properties indicates how far to move the box.
+
+  - Box offset properties are usually stated in _pixels_, _percentages_, or _ems_
+
+  ```css
+    p.example {
+    position: relative;
+    top: 10px;
+    left: 100px;
+    }
+  ```
 
 - Absolute positioning
 
   - This positions the element in relation to its containing element
   - Absolute positioned elements will move as users scroll up and down the page.
+  - When using a value of _absolute_ for the **position** property, the box will be taken out of normal flow and no longer affects the position of other elements on the page.
+
+  - The box offset properties are used to position the box where the element should appear in relation to its containing element.
+
+  - Box offset properties are usually stated in _pixels_, _percentages_, or _ems_
+
+  ```css
+  h1 {
+    position: absolute;
+    top: 0px;
+    left: 500px;
+    width: 250px;
+  }
+  ```
+
+<B>Note:</b> The following are <i>box offset</i> properties that tell a browser how far from the TOP or BOTTOM and LEFT or RIGHT the item should be placed
   
 - Fixed positioning
 
@@ -115,52 +163,7 @@ Positioning schemes:
   - The element that was floated becomes a block-level element around which other content can flow.
   - The z-index allows you to control which box appears on top.
 
-#### Normal Flow
-
-  Each block-level element sits on top of the next one. This the **default** so, does not require a CSS property.
-
-  Proper syntax concerning normal flow would be:
-
-  ```css
-    position: static;
-  ```
-
-#### Relative Positioning
-
-- Relative positioning moves an element to where it would have been in normal flow.
-
-- Using the offest properties indicates how far to move the box.
-
-- Box offset properties are usually stated in _pixels_, _percentages_, or _ems_
-
-  ```css
-  p.example {
-  position: relative;
-  top: 10px;
-  left: 100px;
-  }
-  ```
-
-#### Absolute Positioning
-
-- When using a value of _absolute_ for the **position** property, the box will be taken out of normal flow and no longer affects the position of other elements on the page.
-
-- The box offset properties are used to position the box where the element should appear in relation to its containing element.
-
-- Box offset properties are usually stated in _pixels_, _percentages_, or _ems_
-
-```css
-h1 {
-  position: absolute;
-  top: 0px;
-  left: 500px;
-  width: 250px;
-}
-```
-
-#### Fixed Positioning
-
-#### Overlapping Elements
+<h> Overlapping Elements
 
 #### Floating Elements
 
