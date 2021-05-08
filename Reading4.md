@@ -161,22 +161,75 @@ Relative URLs are considered shorthand because you do not have to include the do
 
   - Floating an element allows you to take it out of normal flow and position it to the far left or right of the containing box.
   - The element that was floated becomes a block-level element around which other content can flow.
-  - The z-index allows you to control which box appears on top.
+  <h4>Overlapping Elements</h4>
+   The z-index allows you to control which box appears on top.
 
-<h> Overlapping Elements
+  - The higher the number, the closer that element is to the front. Thus, an element with a z-index of 10 will appear over the top of one with a z-index of 5.
+  - Also referred to as "stacking context", as if the blocks have been stacked on top of each other on a z axis.
 
-#### Floating Elements
+### Floating Elements
+
+- Floating an element allows you to take it out of normal flow and "float" it as far right or left of the containing element as possible.
+- Anything else that sits inside the container with the floated element will flow around the floated element.
+- <b>Should be used with</b> the <i>width</i> property, otherwise, results will be inconsistent.
 
 #### Using Floats to place elements side-by-side
 
-#### Clearing Floats
+- The <i>float</i> property is commonly used to float boxes next to each other.
+- The <i>height</i> of the box can affect where that element will sit.
+
+  - One way to solve this problem is to set the height of the elements float next to each other all the same height as the tallest element that is being floated.
+
+    - One fix for this issue is to use the <i>clear</i> property instead.
+
+- The <i>clear</i> is used to tell the browser that <b>NO</B> element should touch the left, right, or both sides of the the box.
 
 #### Creating Multi-Column Layouts with floats
 
+- Achieved using the \<div\> element to represent each column and is used with these properties:
+  
+  - Width: sets the width of the colums
+  - Float: positions the columns next to each other
+  - Margin: creates a gap between the colums
+
+- \<div\> elements can be nested and each can contain headings, paragraphs, and images.
+
 ### Fixed Width Layouts
+
+- A fixed width layout does not change size according to the size of the brwoser window.
+- Measurements tend to be in pixels.
+
+- Advantages:
+
+  - Pixel values are accurate
+  - The designer has far greater control over the appearance and position of the items on the page
+  - The designer can control the length of lines of text regardless of the user's window size
+  - Image sizes will remain the same relative to the rest of the page.
+
+- Disadvantages:
+
+  - Can end up with BIG gaps around the edge of the page
+  - If the user's screen resolution is higher that the designer's screen, the page and text can be smaller and harder to read.
+  - If the user adjusts the font size, text may not fit within the allotted spaces
+  - The page will oftentimes take up more vertical space than a responsive/liquid layout
 
 ### Liquid Layouts
 
-## Layout Grids
+- Responsive/Liquid layouts stretch and contract according to the size of the browser window.
+- Measurements for this type of layout are usually stated in percentages.
+- Advantages:
 
-## Multiple Style Sheets
+  - Pages will expand to fill the entire browser whether on a laptop or a large screen desktop
+  - If the user has a small window, the page can contract to fit it without the user having to scroll to the side.
+  - This design is tolerant of the users setting font sizes larger than wha the designer intended.
+
+- Disadvantages:
+
+  - If the designer doesn't control the width of sections of the page then, the page can look very different than intended.
+  - If using a wide window, the lines of text can become very long.
+  - If using a very narrow window, the lines of the text can appear squished up or only a couple of words per line.
+  - If the page contains a fixed width item such as, an image, the image can overlow into the text.
+
+<!-- ## Layout Grids
+
+## Multiple Style Sheets -->
