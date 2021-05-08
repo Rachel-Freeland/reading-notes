@@ -230,6 +230,116 @@ Relative URLs are considered shorthand because you do not have to include the do
   - If using a very narrow window, the lines of the text can appear squished up or only a couple of words per line.
   - If the page contains a fixed width item such as, an image, the image can overlow into the text.
 
-<!-- ## Layout Grids
+## Layout Grids
 
-## Multiple Style Sheets -->
+- Check out the grid layouts on pp. 387 - 404
+
+## Functions, Methods, and Objects
+
+- Function: a series of instructions that, when grouped together, perform a specific function. A function contains "reusable" script so that you are not typing the same instructions over and over again.
+- "Calling" a function, tells it to perform the function.
+- Parameters: Pieces of information from outside the function that provides the function with the information needed to carry out the instructions.
+- Return value: the response you get from the function, if you are expecting one.
+- A function is "declared" when you use the <b>function</b> keyword and then give the function a name, the <b>function name</b> using camelCase. The curly braces { } denote the beginning and end of the <b>code block</b>. Within the code block are a statement or series of statements that perform a task.
+- Example of a function that does not take any parameters:
+
+```js
+function functionName() {
+  document.write('Hello');
+}
+```
+
+- To call a function, it should look something like this:
+
+```js
+sayHello();
+```
+
+- Declaring a function that takes a parameter or parameters should look similar to this;
+
+```js
+function getArea(width, height) {
+  return width * height;
+}
+```
+
+- To call a function that needs parameters:
+
+```js
+getArea(3, 5);
+```
+
+- Some functions return information to the code that called them. For example:
+
+```js
+function calculateArea(width, height) {
+  let area = width * height;
+  return area;
+}
+```
+
+<b>Note:</b> The interpreter leaves the function when <b><i>return</i></b> is used.
+
+- How to set up a function to return multiple values:
+
+```js
+function getSize(width, height, depth) {
+  let area = width * height;
+  let volume = width * height * depth;
+  let sizes = [area, volume];
+  return sizes;
+}
+```
+
+- How to access the different values from one function:
+
+```js
+let areaOne = getSize(3, 2, 3)[0];
+let volumeOne = getSize(3, 2, 3)[1];
+```
+
+- Declaring a function and giving it a name allows the developer to call and use that function later in the code.\
+
+- Function expression: is a function used where the interpreter would expect an expression. The name is usually <i>omitted</i>. A function without a name is a.k.a "anonymous function."
+
+```js
+let area = function(width, height) {
+  return width * height;
+};
+
+let size = area(3, 4);
+```
+
+- <b>IIFE</b> - <b>I</b>mmediately <b>I</b>nvoked <b>F</b>unction <b>E</b>xpressions, pronounced "iffy," are not given a name. Instead, they are called immediately like below...
+
+```js
+let area = (function() {
+  let width = 3;
+  let height = 2;
+  return width * height;
+}());
+```
+
+### When to use Anonymous Functions and IIFEs
+
+- As an argument when a function is called (to calculate the value for that function)
+- To assign the value of a property to an object
+- In event handlers and listerners to perform a task when an event occurs
+- To prevent conflicts between two scripts that might use the same variable names
+
+## Variable Scopes
+
+- The location where you declare your variable will affect where it can be used within your code. If you declare it within a function, it can only be used within that function.
+
+- A <b>Local variable or function-level variable</b> are variables declared with that function and can only be used within that function. This is known as, <b>local scope or function-level scope</b>
+
+- Local variables are created by the interpreter when the function is run and removed as soon as the function has finished its task.
+  - If the function is run twice, you may get 2 different values returned
+  - 2 different functions can use variables of the same name without any conflict
+
+- <b>Global variables</b> are created outside of a function and can be used anywhere within the script. It is considered to have a <b>global scope</b>
+
+- Global variables are stored in memory for as long as the web page is loaded in the web browser.
+  - Global variables take up more memory than local variables
+  - Global variables have an increased risk of naming conflicts
+  
