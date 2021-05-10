@@ -84,15 +84,22 @@ Relative URLs are considered shorthand because you do not have to include the do
 - CSS treats each HTML element as if it is in its own box.
 - The box is either block-level box or an inline box.
   - Block-Level Elements:
+
+  ```html
     - <h1>
     - <p>
     - <ul>
     - <li>
     <br />
+    ```
+
+  ```html
   - Inline Elements
-    - \<img\>
-    - \<b\>
-    - \<i\>
+    - <img>
+    - <b>
+    - <i>
+    ```
+  
 - If one block-level box contains another block-level box then, the outer box is considered a **containing** or **parent** element.
 
 ### Controlling the position of elements
@@ -180,7 +187,7 @@ Relative URLs are considered shorthand because you do not have to include the do
 
   - One way to solve this problem is to set the height of the elements float next to each other all the same height as the tallest element that is being floated.
 
-   - One fix for this issue is to use the <i>clear</i> property instead.
+  - One fix for this issue is to use the <i>clear</i> property instead.
 
 - The <i>clear</i> is used to tell the browser that <b>NO</B> element should touch the left, right, or both sides of the the box.
 
@@ -342,4 +349,3 @@ let area = (function() {
 - Global variables are stored in memory for as long as the web page is loaded in the web browser.
   - Global variables take up more memory than local variables
   - Global variables have an increased risk of naming conflicts
-  
