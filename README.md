@@ -7,8 +7,8 @@ I will also note any observations and/or questions concerning the reading materi
 # Table of Contents
 
 - [Reading 1](Reading1.md)
-- [Reading 2](https://github.com/Rachel-Freeland/reading-notes/blob/gh-pages/Reading2.md)
-- [Reading 3](https://github.com/Rachel-Freeland/reading-notes/blob/gh-pages/Reading3.md)
+- [Reading 2](Reading2.md)
+- [Reading 3](Reading3.md)
 - [Reading 4](https://github.com/Rachel-Freeland/reading-notes/blob/gh-pages/Reading4.md)
 - [Reading 5](https://github.com/Rachel-Freeland/reading-notes/blob/gh-pages/Reading5.md)
 - [Reading 6](https://github.com/Rachel-Freeland/reading-notes/blob/gh-pages/Reading6.md)
