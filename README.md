@@ -2,7 +2,7 @@
 These are the reading notes for my classes for my classes at Code Fellows.
 I will also note any observations and/or questions concerning the reading material for **Code 201**.
 
-# :nerd_face: **Code 201 Reading Notes** :nerd_face:
+# **Code 201 Reading Notes** 👀
 
 # Table of Contents
 
