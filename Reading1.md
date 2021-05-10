@@ -1,33 +1,32 @@
-The reading for today is about HTML and javaScript. The HTML encompasses HTML structure, extra markup, layout and, process & design. The javaScript covers the ABCs of Programming for beginners.
-
 # HTML
 
 HTML is structured using elements. Almost all elements have 2 tags: an opening and a closing tag. There are a few exceptions to this rule but, the majority use 2. The elements covered in today's reading are:
-  - **\<html\>** (everything between the opening and closing tag is considered HTML code unless otherwise noted)
 
-  - **\<body\>** (the body of the page is what you see in the browser window)
+- **\<html\>** (everything between the opening and closing tag is considered HTML code unless otherwise noted)
 
-  - **\<h1\>** (as well as the other levels of headings h2, h3, etc.)
+- **\<body\>** (the body of the page is what you see in the browser window)
 
-  - **\<p\>** (paragraph)
+- **\<h1\>** (as well as the other levels of headings h2, h3, etc.)
 
-  - **\<head\>** (this tag contains information _about_ that particular page)
+- **\<p\>** (paragraph)
 
-  - **\<title\>** (this is displayed on the tab of the browser and is typically found in the \<head\> element)
+- **\<head\>** (this tag contains information _about_ that particular page)
 
-  - **\<div\>** (used to group a set of elements together in one block-level box) _Use the id or class attribute to apply CSS style rules._
+- **\<title\>** (this is displayed on the tab of the browser and is typically found in the \<head\> element)
 
-  - **\<span\>** (Serves as an inline equvialent of the \<div\> element) _This element is most commonly used to control the appearance of the content of these elements and is typically used with the id or class attribute._
+- **\<div\>** (used to group a set of elements together in one block-level box) _Use the id or class attribute to apply CSS style rules._
 
-  - **\<iframe\>** an abbreviation of inline frame. This element requires the use of the **src** (specifies the URL), **height** (expressed in pixels), **width** (expressed in pixels), **scrolling** (***note: not used in HTML5.*** This attribute indicates whether the iframe should have scroll bars), **frameborder** (***note: not used in HTML5.*** Indicates if the iframe should have a frame border.) and **seamless** (***note: new attribute in HTML5.*** This attribute is used in iframes where scrollbars are not wanted.)
+- **\<span\>** (Serves as an inline equvialent of the \<div\> element) _This element is most commonly used to control the appearance of the content of these elements and is typically used with the id or class attribute._
 
-  - **\<meta\>** resides inside the \<head\> element and is used with several attributes:
-    - description
-    - keywords
-    - robots
-    - author
-    - pragma _Used to prevent the browser form caching the page._
-    - expires _Used to indicate when a cached page should no longer be cached._
+- **\<iframe\>** an abbreviation of inline frame. This element requires the use of the **src** (specifies the URL), **height** (expressed in pixels), **width** (expressed in pixels), **scrolling** (***note: not used in HTML5.*** This attribute indicates whether the iframe should have scroll bars), **frameborder** (***note: not used in HTML5.*** Indicates if the iframe should have a frame border.) and **seamless** (***note: new attribute in HTML5.*** This attribute is used in iframes where scrollbars are not wanted.)
+
+- **\<meta\>** resides inside the \<head\> element and is used with several attributes:
+  - description
+  - keywords
+  - robots
+  - author
+  - pragma _Used to prevent the browser form caching the page._
+  - expires _Used to indicate when a cached page should no longer be cached._
   
   - **\<header\>** and **\<footer\>** Used as a:
     - Main header or footer at the top and bottom of every page
@@ -56,9 +55,8 @@ Start each page with a ***\<!DOCTYPE html\>*** to ensure that the page renders c
 
   Placing comments within your code is important so that you and others that come after you will understand what your code is meant to do. Comments can be:
 
-  - single line comments denoted by the //_
-
-  - multiple line comments denoted by \<!\-\- and \-\-\> 
+- single line comments denoted by the //_
+- multiple line comments denoted by \<!\-\- and \-\-\>
 
 The **ID** attribute, a.k.a. "**gloabal attribute**", is intended to be used to uniquely identify an element from the other elements of the same type so that it can be styled differently or separately from the others.
   _The value should start with a letter or an underscore._
@@ -68,8 +66,8 @@ The **ID** attribute, a.k.a. "**gloabal attribute**", is intended to be used to 
   **BLOCK** level elements always appear to start on a new line. Examples of a block level element are: \<h1\>, \<p\>, and list elements whether ordered or unordered.
 
   **INLINE** level elements always appear to continue on in the same line as the last element. Examples of inline elements are: \<a\>, \<b\>, \<em\>. amd \<img\>.
-  
-  # JavaScript
+
+## JavaScript
   
   JavaScript makes web pages more interactive by:
 

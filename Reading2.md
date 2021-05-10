@@ -1,10 +1,8 @@
-Day 2's chapters cover manipulating text in headings, paragraphs, font styles, and the structural and semantic markup to bring your pages to life. We are also introduced to more CSS such as, what it is, how it works, and the rules, properties and, values associated with it. Our reading from the javaScript book introduces us to the basics of language... it's syntax, grammar, decisions, and loops.
-
 # HTML
 
 ## Structure
 
-**Building Structure**
+<h2>Building Structure</h2>
 
 HTML has 6 **heading "levels"** beginning with `<h1>` all the way to `<h6>` with the headings getting smaller with each increase in the heading number.
 
@@ -30,7 +28,7 @@ To show **emphasis** in the text, surround the desired text to have emphasis wit
 **Quotes** can be handled in 2 ways:
 
 - For longer quotes, you can use the `<blockquote>` and `</blockquote>` tags. This particular way of marking a quote indents the text. _Note: Do not use this just to indent a quote... use CSS to accomplished that task._
-- For shorter quotes, you can use the `<q> and `</q>` tags. This particular way surrounds the text in quote marks.
+- For shorter quotes, you can use the `<q> and </q>` tags. This particular way surrounds the text in quote marks.
 
 **Abbreviations and Acronyms** can both be used with the `<abbr>` and `</abbr>` tags from HTML5 and going forward. _If working in an older HTML, the `<acroynm>` and `</acronym>` tags can be used._
 
@@ -38,7 +36,7 @@ Work can be **cited** through the use of the `<cite>` and `</cite>` tags. The co
 
 To mark the **defining instance of** a new term, surround the term to be defined with the `<dfn>` and `</dfn>` tags. Some browsers show the defined content in italics however, Safari and Chrome do not change the appareance of the text.
 
-**Author Details** are containd in the `<address>` and `</address>` tags. Browsers often render the text inside the tags in italics. The element is used to contain the contact details of the author. 
+**Author Details** are containd in the `<address>` and `</address>` tags. Browsers often render the text inside the tags in italics. The element is used to contain the contact details of the author.
 
 To show content that has been **inserted** into a document, use the `<ins>` and `</ins>` tags. The inserted text is usually underlined. To mark the **deleted** text, use the `<del>` and `</del>` tags. The text marked as deleted is shown with a line through it.
 
@@ -91,7 +89,7 @@ Every statement should end with a ";"
 
 JavaScript **IS** case sensitive.
 
-Comments should be used to explain what your code does. 
+Comments should be used to explain what your code does.
 
 - Multi-line comments are denoted by **/\*** and **\*/**.
 - Single line comments are denoted by **//**.
@@ -99,22 +97,23 @@ Comments should be used to explain what your code does.
 A variable must be declared before using it. A
 variable is declared by using the keyword, **var**. For ex.
 
-  ```
+  ```js
   var quantity;
   ```
 
 After a variable is declared, you can then assign a value to it. For ex.
-  ```
+
+  ```js
   let quatity = 3;
   ```
   
 ## Data Types
 
 1. **Numeric Data Type**: includes negatives and decimal values.
-2. **String Data Type**: includes letters and other characters. 
+2. **String Data Type**: includes letters and other characters.
 
-- _Note: Strings are placed inside quote marks._
-- Quotes used inside a string need to be "escaped" maening a backslash is required preceding the quotes.
+    - _Note: Strings are placed inside quote marks._
+    - Quotes used inside a string need to be "escaped" maening a backslash is required preceding the quotes.
 
 3. **Boolean Data Type**: can be 1 of 2 values: _true_ or _false_.
 
@@ -169,10 +168,9 @@ Comparison operators and Logical Operators are used to evaluate and compare the 
 An _if_ statement evaluates a condition and if it evaluates to _true_ then, the statements in the code block will execute.
 An example of an _if_ statement:
 
-  ```
-  if \(userName == 'Bob'\)
-    \{
-      congratulate\(\);
-    \}
-  ```  
-
+  ```js
+  if (userName == 'Bob')
+    {
+      congratulate();
+    }
+  ``` 
