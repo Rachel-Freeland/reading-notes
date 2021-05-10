@@ -84,10 +84,10 @@ Relative URLs are considered shorthand because you do not have to include the do
 - CSS treats each HTML element as if it is in its own box.
 - The box is either block-level box or an inline box.
   - Block-Level Elements:
-    - \<h1\>
-    - \<p\>
-    - \<ul\>
-    - \<li\>
+    - <h1>
+    - <p>
+    - <ul>
+    - <li>
     <br />
   - Inline Elements
     - \<img\>
@@ -95,7 +95,7 @@ Relative URLs are considered shorthand because you do not have to include the do
     - \<i\>
 - If one block-level box contains another block-level box then, the outer box is considered a **containing** or **parent** element.
 
-<h3>Controlling the position of elements</h3>
+### Controlling the position of elements
 
 <h4>Positioning schemes:</h4>
 <p>Allows the ability to control the layout of the page. Use the <i>position</i> property in CSS to specify the positioning of an element.
@@ -180,7 +180,7 @@ Relative URLs are considered shorthand because you do not have to include the do
 
   - One way to solve this problem is to set the height of the elements float next to each other all the same height as the tallest element that is being floated.
 
-    - One fix for this issue is to use the <i>clear</i> property instead.
+   - One fix for this issue is to use the <i>clear</i> property instead.
 
 - The <i>clear</i> is used to tell the browser that <b>NO</B> element should touch the left, right, or both sides of the the box.
 
