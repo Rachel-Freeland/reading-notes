@@ -183,7 +183,7 @@ Units of Type Size
 
 - Refer to p. 276 to see the equivalency charts for pixels, percentages, and ems.
 
-More Font Choice
+More Font Choicea
 
 - `@font-face`: allows you to use a font, even if it is not installed on the computer of the person browsing
 - `font-family`: specifies the name of the font. This allows it to be used as a value of the <i>font-family</i> property
@@ -198,7 +198,7 @@ More Font Choice
 - `font-weight`: allows you to create bold text. Your choices for this property are 'normal' or 'bold'
 - `font-style`: allows you to create italic text. Your choices for this property are 'normal', 'italic', and 'oblique' (discussed earlier)
 - `text-transform`: Text can be transformed to change the case of the text. Choices are: uppercase, lowercase, and capitalize (capitalizes the first letter of each word)
--`text-decoration`: choices are:
+- `text-decoration`: choices are:
   - none: removes any decoration already applied
   - underline: adds a line under the text
   - overline: add a line over the top of text
