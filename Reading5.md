@@ -123,7 +123,7 @@ h1 {
     - 0.5 represents 50% transparency
     - 0.75 represents 75% transparency
 
-```
+```css
 body {
   background-color: hsl(0, 0%, 78%);
 }
