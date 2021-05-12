@@ -191,12 +191,12 @@ let parkHotel = new Hotel('Park', 120, 77);
 #### Data Types Revisited
 
 - 5 Simple data types
-
   1. String
   2. Number
   3. Boolean
   4. Undefined - a declared variable with NO value assigned yet
   5. Null - a variable with absolutely NO value
-- Complex data type
 
-  6. Object (includes arrays and functions)
+- Complex data type
+  1. Object (includes arrays and functions)
+  
