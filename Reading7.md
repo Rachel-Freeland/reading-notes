@@ -199,4 +199,8 @@ let parkHotel = new Hotel('Park', 120, 77);
 
 - Complex data type
   1. Object (includes arrays and functions)
+
+- ***References***
+  - HTML&CSS by Jon Duckett
+  - JavaScript&JQUERY by Jon Duckett
   
