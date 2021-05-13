@@ -22,7 +22,6 @@
 
 - Opening `<table>` tag should contain the _cellpadding_ attribute to add space inside each cell and the _cellspacing_ attribute to create space between the cells
 
-
 ## Functions, Methods, and Objects
 
 ### Creating an Object: Constructor Notation
@@ -170,8 +169,8 @@ let parkHotel = new Hotel('Park', 120, 77);
   - self/window/parent
 - ***The Window Object*** - represents the current browser window or tab
   - List of Properties and Methods located on pg 124
- 
-- Please refer to https://www.techfry.com/javascript-tutorial/javascript-browser-object-model for more information regarding the BOM
+
+- Please refer to <https://www.techfry.com/javascript-tutorial/javascript-browser-object-model> for more information regarding the BOM
 
 #### Document Object Model
 
