@@ -99,7 +99,7 @@ div {
 
   - Note: the different options and how they work. They work just as the sound like they do.
 
-- While the ***parent container*** is important, we must not forget that the ***child container*** needs some properties set as well. 
+- While the ***parent container*** is important, we must not forget that the ***child container*** needs some properties set as well.
 
 - ***Child Container Properties***
   - Items can be given an order and by default are laid out in source order. But, you can take control of this order with the `order` property
@@ -134,5 +134,5 @@ div {
 
 ## References
 
-<cite>https://css-tricks.com/snippets/css/a-guide-to-flexbox/</cite><br/>
+<cite><https://css-tricks.com/snippets/css/a-guide-to-flexbox/></cite><br/>
 <cite>HTML & CSS by Jon Duckett</cite>
