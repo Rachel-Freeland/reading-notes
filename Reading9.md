@@ -100,7 +100,7 @@
 <form action="http://www.example.com/profile.php">
   <p>Please select your favorite genre:
   <br />
-  <imput type="radio" name="genre" value="rock" checked="checked" /> Rock
+  <input type="radio" name="genre" value="rock" checked="checked" /> Rock
   <input type="radio" name="genre" value="pop" /> Pop
   <input type="radio" name="genre" value="jazz" /> Jazz
   </p>
@@ -171,7 +171,6 @@
 
 ### Search Input p. 168
 
-
 ## Lists, Tables, and Forms
 
 ### Lists p. 333 - 336
@@ -193,8 +192,8 @@
   - `color` and `background-color`
   - `border` and `border-radius`
   - Psuedo classes
-    - `:focus` changes the background color of the text input whe it is being used
-    - `:hover` 
+    - `:focus` changes the background color of the text input when it is being used
+    - `:hover`
   - `background-image` adds a background image to the box
 
 - Styling Submit Buttons
@@ -238,5 +237,3 @@
 - List of different event types on pp. 246 - 247
 - Events are ***fired*** or ***raised*** when triggered such as, when a user clicks on a link
 - Events ***trigger*** a function or script
-
-- 
