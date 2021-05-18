@@ -153,3 +153,15 @@ var buyerData = {
     </body>
 </html>
 ```
+
+## Chart.js Docs
+
+## Canvas API
+
+### Basic Usage
+
+### Drawing Shapes With Canvas
+
+### Applying Styles And Colors
+
+### Drawing Text
