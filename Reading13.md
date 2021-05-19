@@ -48,7 +48,7 @@ function supports_HTML5_storage() {
 - Another way to check is using Modernizr <http://diveinto.html5doctor.com/detect.html#modernizr>
 
 ```js
-if(Medernizr.localstorage) {
+if(Modernizr.localstorage) {
   // window.localStorage is available!
 } else {
   // no native support for HTML5 
