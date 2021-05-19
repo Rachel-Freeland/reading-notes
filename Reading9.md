@@ -232,8 +232,99 @@
 
 ## JS - Events p. 243 - 292
 
+- _Different Event Types_ on pg 246 - 247
 - Events are the browser's way of indicating when something has happened, such as, a button has been clicked
 - Binding is the process of stating which event you are waiting to happen
-- List of different event types on pp. 246 - 247
 - Events are ***fired*** or ***raised*** when triggered such as, when a user clicks on a link
 - Events ***trigger*** a function or script
+
+### How Events Trigger JavaScript Code
+
+- Event Handling: the 3 steps involved in getting HTML to trigger code
+  1. Select the element node(s) that you want the script to respond to such as, clicking a specific link
+  2. Indicate which ***event*** on the selected node(s) will trigger the response (a.k.a. ***BINDING***)
+  3. State the code that you want to run when this event occurs
+
+- 3 Ways To Bind An Event
+  1. HTML Event Handlers (p. 251) ***Considered <b>BAD</b> practice***
+  2. Traditional DOM Events (p. 252)
+      - Considered better than HTML event handlers because it allows you to separate the JavaScript form the HTML
+      - DRAWBACK: You can only attach a single function to any event, for ex. the submit event of a form cannot trigger one function that checks the contents of a form, and a second to submit the form data if it passes the checks.
+
+      ```js
+      element.onevent = functionName();
+      ```
+
+      - `element` = DOM element node to target
+      - `onevent` = Event bound to node(s) preceded by word "on"
+      - `functionName` = name of function to call ***Note the lack of ()***
+
+  3. DOM Level 2 Event Listeners (p. 254) <b>The Preferred Way of Handling Events</b>
+      - Allows 1 event to trigger multiple functions
+      - PRO: Less likely to be conflicts
+
+      ```js
+      element.addEventListener('event', functionName[, Boolean]);
+      ```
+
+      - `element` = DOM element node to target
+      - `event` = Binds the node(s) to the event in quotes
+      - `functionName` = Name of the function to be called
+      - `Event Flow` = Indicates something called <b>capture</b> and is usually set to _false_
+
+### Using Parameters With Event Handlers & Listeners p. 256
+
+- Use an ***anonymous function***
+
+```js
+el.addEventListener('blur',function() {
+  checkUsername(5);
+}, flase);
+```
+
+### Event Flow
+
+- The order in which events fire is known as <b>EVENT FLOW</b> and events flow in 2 directions
+  1. Event Bubbling - starts at the most specific node and flows _outwards_
+  2. Event Capturing - starts at the least specific node and flows _inwards_
+- The flow of events matters when your code has event handlers on an element AND one of its ancestor or descendant elements
+
+### The Event Object p. 262
+
+### Event Delegation p. 266
+
+- Creating too many event listeners can slow down a page.
+- Consider placing event listeners on a parent element and use the ***event*** object's `target` property to find which child it happened on
+
+### Changing Default Behavior
+
+- The ***event*** object has methods that change:
+  1. The default behavior of an element
+  2. How the element's ancestors respond to the event
+- Options are:
+  - preventDefautl()
+  - stopPropagation()
+  - using both methods
+
+### Using Event Delegation p. 268 - 269
+
+### Which Element Did An Event Occur On? p. 270
+
+- When calling a function , the event object's target property is the BEST way to determine which event the event occurred on.
+- `this` keyword refers to the owner of a function
+
+### Different Types Of Events p. 271 - 292
+
+#### User Interface Events p. 272 - 273
+
+#### Focus & Blur Events p. 274 - 275
+
+#### Mouse Events p. 276 - 278
+
+#### Keyboard Events p. 280 - 281
+
+#### Form Events p. 282 - 283
+
+#### Mutation Events & Observers p. 284 - 285
+
+#### HTML5 Events p. 286 - 287
