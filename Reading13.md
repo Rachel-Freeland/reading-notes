@@ -27,3 +27,33 @@
 
 
 ## HTML5 Storage
+
+- Referred to as DOM Storage
+- This is a way for web pages to store named key/value pairs locally on the client web browser
+- This data persists even after you browse to another site, close your browser tab, exit the browser, or whatever...
+- Unlike cookies, these stored key/value pairs are never transmitted to a remote server
+- Can be accessed through a `localStorage` object on the global _window object_
+- Before using HTML5 storage when using js, you should check whether the browser supports it
+
+```js
+function supports_HTML5_storage() {
+  try {
+    return 'localStorage' in windown && window['localStorage'] != null;
+  } catch (e) {
+    return false;
+  }
+}
+```
+
+- Another way to check is using Modernizr <http://diveinto.html5doctor.com/detect.html#modernizr>
+
+```js
+if(Medernizr.localstorage) {
+  // window.localStorage is available!
+} else {
+  // no native support for HTML5 
+  // maybe try dojox.storage or a 3rd-party solution
+}
+```
+
+
