@@ -7,7 +7,7 @@ I will also note any observations and/or questions concerning the reading materi
 
 ### Table of Contents
 
-- [Reading 1](Reading1.md)
+- [Reading 1](Code201/Reading1.md)
 - [Reading 2](Reading2.md)
 - [Reading 3](Reading3.md)
 - [Reading 4](Reading4.md)
