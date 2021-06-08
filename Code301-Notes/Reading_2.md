@@ -11,11 +11,23 @@
 
 1. Based off the diagram, what happens first, the 'render' or the 'componentDidMount'?
 
+    - First would be the render and then, the componentDidMount
+
 2. What is the very first thing to happen in the lifecycle of React?
 
-3. Put the following things in the ofer that they happen: `componentDidMount`, `render`, `constructor`, `componentWillUnmount`, `React Updates`
+    - The `constructor()` is called
 
-4. What does componentDidMouont do?
+3. Put the following things in the order that they happen: `componentDidMount`, `render`, `constructor`, `componentWillUnmount`, `React Updates`
+
+    1. constructor
+    2. render
+    3. componentDidMount
+    4. React updates
+    5. componentWillUnmount
+
+4. What does componentDidMount do?
+
+    - It loads anything that needs to use a network request and/or it initializes the DOM
 
 ## Questions about React State vs Props
 
@@ -32,5 +44,10 @@
     - When the state changes
 
 4. What are some examples of things that we could store in state?
+
+    - Examples of things that we could store in state would be:
+      - User repsonses to prompts
+      - Counters that need to be updated
+      - Anything that will change
 
 ## Things I want to know more about
