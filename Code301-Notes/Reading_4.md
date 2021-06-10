@@ -15,12 +15,17 @@
 
 1. Why would we use a ternary operator?
 2. Rewrite the following statement using a ternary statement:
+
  ```js
   if(x===y){
  console.log(true);
   } else {
  console.log(false);
   }
+  ```
+
+  ```js
+  if (x === y)? console.log(true) : console.log(false);
   ```
 
 ## Things I want to know more about:
