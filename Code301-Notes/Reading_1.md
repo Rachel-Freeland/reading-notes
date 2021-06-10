@@ -11,8 +11,21 @@
 ## Questions to answer for reading on _Component Based Architecture_
 
 1. What is a component?
+    - A component is a software object that is modular, portable, replaceable and reusable that encapsulates its implementation and exports it as a higher-level interface.
 2. What are the charactistics of a component?
+    - Reusability - most are designed to be reused whilde there may be some designed for a specific task
+    - Replaceable - may be freely substituted with other similar components
+    - Extensible - can be extended from an existing component in order to provide a new behavior
+    - Encapsulated - allows the user to use its functionality but, does not expose details of the internal processes or any internal variables or state
+    - Independent - designed to have minimal dependencies on other components
 3. What are the advantages of using component based architecture?
+    - Ease of development
+    - Ease of deployment
+    - Reduced cost
+    - Reusable
+    - Modification of technical complexity
+    - System maintenance and evolution
+    - Independent
 
 ## Questions in regards to _What is Props and How to Use it in React_
 
