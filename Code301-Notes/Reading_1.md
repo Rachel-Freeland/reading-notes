@@ -30,7 +30,35 @@
 ## Questions in regards to _What is Props and How to Use it in React_
 
 1. What is props short for?
+    - Props is short for the word ***properties***
 2. How are props used in React?
+    - They are used to pass data from one component to another in a uni-directional flow.
+    - First, define an attribute and its value
+        - Just like in HTML we can assign attributes and values to HTML tags, we can do the same in React. We define our own attributes and assign them values with the `{}`
+
+        ```js
+        <childComponent someAttribute={value} anotherAttribute={value} />
+        ```
+
+    - Next, we pass data using props
+        - Passing props is like passing variables to a function
+
+        ```js
+        const ChileComponent = (props) => {
+          return <p>I'm the 1st chile!</p>;
+        };
+        ```
+
+    - Last but, certainly not least, we render the props data
+
+        ```js
+        const ChildComponent = (props) => {
+          return <p>{props.text}</p>;
+        };
+        ```
+
 3. What is the flow of props?
+    - The flow is one-way or uni-directional from parent to child.
 
 ## Things I want to know more about
+
