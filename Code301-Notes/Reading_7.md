@@ -1,0 +1,34 @@
+# Day 7 Reading Notes
+
+- [What Google Learned Fron Its Quest to Build the Perfect Team](<https://www.nytimes.com/2016/02/28/magazine/what-google-learned-from-its-quest-to-build-the-perfect-team.html>)
+
+- [How I explained REST to my brother](<https://gist.github.com/brookr/5977550>)
+
+1. Who is Roy Fielding?
+    - He is a computer scientist and one of the principal authors of the HTTP specification and the originator of the RESTful (Representational State Transfer) achitecture. He also cofounded the APACHE HTTP server project. ***<https://en.wikipedia.org/wiki/Roy_Fielding>***
+2. Why don't the techniques that we use today work well when we need to be able to talk to all of the machines in the world?
+    - They weren't designed to be used like that
+3. What is the HTTP protocol that Fielding and his friends created?
+4. What does a `GET` do?
+5. What does a `POST` do?
+6. What does a `PUT` do?
+7. What does a `PATCH` do?
+
+
+## API keys
+
+- [Geocodoing API](<https://locationiq.com/>)
+
+  1. Did you get your API key? ***YES***
+
+-[Weather Bit API](<https://www.weatherbit.io/>)
+
+  1. Did you get your API key? ***YES***
+
+- [Yelp API Docs](<https://www.yelp.com/developers/documentation/v3/business_search>)
+
+  1. Did you get your API key? ***YES?***
+
+-[The movie DB API Docs](<https://developers.themoviedb.org/3/getting-started/introduction>)
+
+  1. Did you get your API key? ***YES?***
