@@ -9,10 +9,15 @@
 2. Why don't the techniques that we use today work well when we need to be able to talk to all of the machines in the world?
     - They weren't designed to be used like that
 3. What is the HTTP protocol that Fielding and his friends created?
+    - REST: REpresentational State Transfer
 4. What does a `GET` do?
+    - `GET` retrieves information
 5. What does a `POST` do?
+    - `POST` adds information
 6. What does a `PUT` do?
+    - `PUT` replaces information
 7. What does a `PATCH` do?
+    - `PATCH` perfroms a partial update
 
 
 ## API keys
