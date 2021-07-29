@@ -19,21 +19,20 @@
 7. What does a `PATCH` do?
     - `PATCH` perfroms a partial update
 
-
 ## API keys
 
 - [Geocodoing API](<https://locationiq.com/>)
 
-  1. Did you get your API key? ***YES***
+  - Did you get your API key? ***YES***
 
--[Weather Bit API](<https://www.weatherbit.io/>)
+- [Weather Bit API](<https://www.weatherbit.io/>)
 
-  1. Did you get your API key? ***YES***
+  - Did you get your API key? ***YES***
 
 - [Yelp API Docs](<https://www.yelp.com/developers/documentation/v3/business_search>)
 
-  1. Did you get your API key? ***YES?***
+  - Did you get your API key? ***YES?***
 
--[The movie DB API Docs](<https://developers.themoviedb.org/3/getting-started/introduction>)
+- [The movie DB API Docs](<https://developers.themoviedb.org/3/getting-started/introduction>)
 
-  1. Did you get your API key? ***YES?***
+  - Did you get your API key? ***YES?***
