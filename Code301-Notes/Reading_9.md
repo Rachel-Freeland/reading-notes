@@ -40,6 +40,10 @@
 
 - We use the `require()` and place that in a variable
 
+```js
+const count = require('./counter');
+```
+
 4. What do we have to do to make a module available?
 
 - We have to use `module.export`
