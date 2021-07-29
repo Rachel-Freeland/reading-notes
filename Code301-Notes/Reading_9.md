@@ -30,10 +30,16 @@
 
 1. What is a module?
 
-- It is a bit of code that focuses on a specific functionality that when brought together with other modules, makes a program
+- It is a bit of code that focuses on a specific functionality that when brought together with other modules, makes a program... it is another javaScript file.
 
 2. What does the word 'require' do?
 
+- It is a builtin function to include modules from other files
+
 3. How do we bring another module into the file that we are working in?
 
+- We use the `require()` and place that in a variable
+
 4. What do we have to do to make a module available?
+
+- We have to use `module.export`
