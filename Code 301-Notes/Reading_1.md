@@ -1,4 +1,4 @@
-# Reading Notes Day 1
+# Reading Notes - Day 1
 
 - [Component Based Architecture](<https://www.tutorialspoint.com/software_architecture_design/component_based_architecture.htm>)
 
