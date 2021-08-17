@@ -25,7 +25,7 @@ I will also note any observations and/or questions concerning the reading materi
 
 ## **Code 301 - Intermediate Software Development - Notes** 🤓
 
-- [Reading 1](gh-pages/Code301-Notes/Reading_1.md)
+- [Reading 1](Code301-Notes/Reading_1.md)
 - [Reading 2](Code301-Notes/Reading_2.md)
 - [Reading 3](Code301-Notes/Reading_3.md)
 - [Reading 4](Code301-Notes/Reading_4.md)
