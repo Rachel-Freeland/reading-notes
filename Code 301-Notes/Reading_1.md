@@ -6,11 +6,11 @@
         - A component is a reusable piece of code that is encapsulated within its own set of functions and is exported to be used in other interfaces.
     2. What are the characteristics of a component?
         - Components are:
-            1. <b>Reusable</b> - designed to be reused however, there are some that do have a specific task
-            2. <b>Replaceable</b> - can be substituted with other similar components
-            3. <b>Not Context Specific</b> - should be able to operate in different environments or contexts
-            4. <b>Extensible</b> - has the ability to be extended from other components to provide a new behavior
-            5. <b>Independent</b> - designed to have little to no dependencies on other components
+            1. **Reusable** - designed to be reused however, there are some that do have a specific task
+            2. **Replaceable** - can be substituted with other similar components
+            3. **Not Context Specific** - should be able to operate in different environments or contexts
+            4. **Extensible** - has the ability to be extended from other components to provide a new behavior
+            5. **Independent** - designed to have little to no dependencies on other components
     3. What are the advantages of using component based architecture?
         - Ease of deployment
         - Reduced cost
