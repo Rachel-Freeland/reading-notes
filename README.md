@@ -23,7 +23,7 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 14](Code201-Notes/Reading14.md)
 - [Reading 15](Code201-Notes/Reading15.md)
 
-## **Code 301 - Intermediate Software Development - Notes** 🤓
+## **Code301 - Intermediate Software Development - Notes** 🤓
 
 - [Reading 1](Code301-Notes/Reading_1.md)
 - [Reading 2](Code301-Notes/Reading_2.md)
