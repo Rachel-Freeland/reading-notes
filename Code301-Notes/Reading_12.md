@@ -43,13 +43,13 @@
     - Parameter accessed by using `req.params.id`
 
 5. What is the difference between `PUT` and `PATCH`?
-    - 
+    - `PUT` updates all and `PATCH` updates what is passed in
 
 6. How do you make a default value in a schema?
-    - 
+    - `default:`
 
 7. What does a `500` error status code mean?
     - Server Error
 
 8. What is the difference between a status `200` and a status `201`?
-    - 
+    - A 200 = `OK` request received and OK and a 201 = `created` success!!
