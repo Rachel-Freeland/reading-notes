@@ -42,3 +42,19 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 15](Code301-Notes/Reading_15.md)
 
 ## **Code 401 - Advanced Software Development - Notes** 😃
+
+- [Reading 1](Code401-Notes/Reading_1.md)
+- [Reading 2](Code401-Notes/Reading_2.md)
+- [Reading 3](Code401-Notes/Reading_3.md)
+- [Reading 4](Code401-Notes/Reading_4.md)
+- [Reading 5](Code401-Notes/Reading_5.md)
+- [Reading 6](Code401-Notes/Reading_6.md)
+- [Reading 7](Code401-Notes/Reading_7.md)
+- [Reading 8](Code401-Notes/Reading_8.md)
+- [Reading 9](Code401-Notes/Reading_9.md)
+- [Reading 10](Code401-Notes/Reading_10.md)
+- [Reading 11](Code401-Notes/Reading_11.md)
+- [Reading 12](Code401-Notes/Reading_12.md)
+- [Reading 13](Code401-Notes/Reading_13.md)
+- [Reading 14](Code401-Notes/Reading_14.md)
+- [Reading 15](Code401-Notes/Reading_15.md)
