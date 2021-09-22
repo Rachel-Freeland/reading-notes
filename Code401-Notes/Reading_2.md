@@ -1,6 +1,6 @@
 # Notes for Code401: Day 2
 
-- [Java Imports](<https://perso.ensta-paris.fr/~diam/java/online/notes-java/language/10basics/import.html>)
+## [Java Imports](<https://perso.ensta-paris.fr/~diam/java/online/notes-java/language/10basics/import.html>)
 
 - A group of java classes can create a package.
 - A package name is the same as the folder which contains the .java files.
