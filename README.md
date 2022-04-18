@@ -41,7 +41,7 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 14](Code301-Notes/Reading_14.md)
 - [Reading 15](Code301-Notes/Reading_15.md)
 
-## **Code 401 - Advanced Software Development - Notes** 😃
+## **Code 401 - Advanced Software Development(Python) - Notes** 😃
 
 - [Reading 1](Code401-Notes/Reading_1.md)
 - [Reading 2](Code401-Notes/Reading_2.md)
