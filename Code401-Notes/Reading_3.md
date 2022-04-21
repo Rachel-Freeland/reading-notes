@@ -87,6 +87,7 @@
     - `.readline(size=-1)` Reads and returns 1 line from the stream. If `size` is specified, that will be the most ***size*** bytes read
     - `.readlines(hint=-1)` Reads and returns a list of lines. ***hint*** can be used to control the number of lines read
       - An example of how to read the entire file as a list
+
         ```py
         f = open('dog_breeds.txt')
         f.readlines() # Returns a list object
