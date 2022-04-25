@@ -2,9 +2,9 @@
 
 - I have had a course at Green River College on SQL so, this is a refresher for me.
 
-![Exercise 1](Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2017.58.45.png)
-![Exercise 2](Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.02.40.png)
-![Exercise 3](Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.05.45.png)
+![Exercise 1](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2017.58.45.png)
+![Exercise 2](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.02.40.png)
+![Exercise 3](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.05.45.png)
 ![Exercise 4](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.10.38.png)
 ![Review](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.17.46.png)
 ![Exercise 6](../Code401-Notes/SQL%20Screenshots/Screen%20Shot%202022-04-24%20at%2018.22.37.png)
