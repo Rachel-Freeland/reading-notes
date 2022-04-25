@@ -44,6 +44,7 @@ I will also note any observations and/or questions concerning the reading materi
 ## **Code 401 - Advanced Software Development(Python) - Notes** 😃
 
 - [Prep: Practicing the Terminal](Code401-Notes/Terminal.md)
+- [Prep: Intro to SQL](Code401-Notes/Prep%3A%20Intro%20to%20SQL.md)
 - [Reading 1](Code401-Notes/Reading_1.md)
 - [Reading 2](Code401-Notes/Reading_2.md)
 - [Reading 3](Code401-Notes/Reading_3.md)
