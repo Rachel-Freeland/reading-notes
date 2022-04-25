@@ -31,6 +31,6 @@ can have in performing its job.
 
 This refers to the increase in Running Time or Memory Space.
 
-![Orders of Growth](OrdersOfGrowth.png)
+![Orders of Growth](../Code401-Notes/Big%20O%20screenshots/OrdersOfGrowth.png)
 
 4. Best Case, Worst Case, and Average Case
