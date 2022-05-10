@@ -60,4 +60,4 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 13](Code401-Notes/Reading_13.md)
 - [Reading 14](Code401-Notes/Reading_14.md)
 - [Reading 15](Code401-Notes/Reading_15.md)
-- [Reading 165](Code401-Notes/Reading_16.md)
+- [Reading 16](Code401-Notes/Reading_16.md)
