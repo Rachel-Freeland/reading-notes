@@ -9,7 +9,7 @@
 * [Track Amazon Prices](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
 
 ### Bookmark & Review
-*[Beautiful Soup](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
+* [Beautiful Soup](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
 _________________________________________________________________________________________________________________________
 
 * Web scraping is a technique used to automatically access and extract large amounts of data from a website.
