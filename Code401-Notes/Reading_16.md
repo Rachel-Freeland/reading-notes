@@ -10,7 +10,7 @@
 
 ### Bookmark & Review
 *[Beautiful Soup](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
-______________________________________________________________________
+_________________________________________________________________________________________________________________________
 
 * Web scraping is a technique used to automatically access and extract large amounts of data from a website.
 * Web scraping a.k.a data mining
