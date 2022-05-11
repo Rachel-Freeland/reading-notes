@@ -59,5 +59,6 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 12](Code401-Notes/Reading_12.md)
 - [Reading 13](Code401-Notes/Reading_13.md)
 - [Reading 14](Code401-Notes/Reading_14.md)
-- [Reading 15](Code401-Notes/Reading_15.md)
-- [Reading 16](Code401-Notes/Reading_16.md)
+- [Reading 15](Code401-Notes/Reading_16.md)
+- [Reading 16](Code401-Notes/Reading_17.md)
+- [Reading 17](Code401-Notes/Reading_18.md)

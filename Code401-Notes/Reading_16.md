@@ -1,47 +1,46 @@
-# Web Scraping
+# Serverless Computing
 
 ## Reading
-* [Web Scrape with Python in 4 min](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460)
-* [What is Web Scraping?](https://towardsdatascience.com/how-to-web-scrape-with-python-in-4-minutes-bc49186a8460)
-* [How to scrape websites without getting blocked?](https://www.scrapehero.com/how-to-prevent-getting-blacklisted-while-scraping/)
 
-## Videos
-* [Track Amazon Prices](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
+* [What is Serverless Computing?](https://www.ibm.com/cloud/learn/serverless)
 
-### Bookmark & Review
-* [Beautiful Soup](https://www.youtube.com/watch?v=Bg9r_yLk7VY)
+### Additional Resources
 
-* Web scraping is a technique used to automatically access and extract large amounts of data from a website.
-* Web scraping a.k.a data mining
-* ***Note:***
-  * Read the site's Terms and Conditions to understand HOW you can LEGALLY use the data.
-  * Make sure you are not downloading the data at too fast a rate. If you cause their site to crash... you could get 
-  blocked.
-* Imports needed:
-  * requests
-  * urllib.request
-  * time
-  * bs4 from BeautifulSoup
-* Techniques used:
-  * Human copy & paste
-  * Text pattern matching with regex
-  * HTTP programming -> the use of HTTP requests to a socket programming
-  * HTML parsing
-  * DOM parsing
-  * Vertical aggregation -> create and monitor "bots"
-  * Semantic annotation recognizing
-  * Computer vision web-page analysis
-* Web Scraping best practices:
-  * Respect Robots.txt -> follow the site's robot.txt file for good behavior
-  * Crawl slower -> the faster you crawl the worse it is for all of us
-  * Do not follow the same crawling pattern -> this helps to avoid intelligent anti-crawling mechanisms
-  * Make requests through proxies and rotate them often
-  * Rotate `user-agents` and corresponding `HTTP request headers` between requests
-  * Use a headless browser:
-    * Puppet
-    * Selenium
-    * Playwright
-  * Beware of Honey Pots
-  * Avoid scraping behind a login
-  * Use captcha solving services
-  
+* [venv - Creation of Virtual Environments](https://docs.python.org/3/library/venv.html)
+  * Provides support for creating lightweight "virtual environments".
+* [Vercel - Get Started](https://vercel.com/docs/get-started)
+  * A platform for frontend frameworks and static sites
+* [http.server](https://pymotw.com/3/http.server/index.html)
+  * Uses classes from socketserver (used for creating network servers) to create base classes for making HTTp servers.
+* [Requests](https://docs.python-requests.org/en/latest/)
+  * Allows you to send HTTP/1.1 requests extremely easily.
+* [Python & APIs](https://realpython.com/python-api/)
+
+### Videos
+* [What is Serverless?](https://www.youtube.com/watch?v=vxJobGtqKVM)
+
+#### Bookmark & Review
+* [Serverless Functions](https://vercel.com/docs/concepts/functions/serverless-functions)
+* [Effective Python Environment](https://realpython.com/effective-python-environment/)
+
+-----------------------------------------------------------------------
+
+Serverless computing is a cloud computing execution model that:
+1. Automatically provisions the computing resources required to run application code on demand, or in response to an event
+2. Automatically scales those resources up or down in response to increased or decreased demand
+3. Automatically scales resources to zero when the application stops running
+
+Pros:
+* Enables dev teams to focus on writing code
+* Serverless customers pay for execution only. The meter starts when the request is made and ends when it is finished.
+* Serverless is a polyglot environment means you can code in any language
+* Simplifies deployment
+* Can be faster and more cost-effective
+* Provides near-total visibility into the system and user times
+
+Cons:
+* Stable or predictable workloads do not seem to take advantage of the cost-savings as much as spiky workloads
+* Cold starts - for applications where latency is not an issue this is not a problem but, for certain environments this
+delay is unacceptable
+* Monitoring and debugging complexity is exacerbated by serverless computing
+* Vendor lock-in
