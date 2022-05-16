@@ -34,3 +34,11 @@ This refers to the increase in Running Time or Memory Space.
 ![Orders of Growth](../Code401-Notes/Big%20O%20screenshots/OrdersOfGrowth.png)
 
 4. Best Case, Worst Case, and Average Case
+
+### Linked Lists
+* Linked lists are a node-based data structure
+* They can be singly or doubly linked - refers to number of references
+* A singly linked list references the `next` node in the list
+* A doubly linked list references both the `previous` node and the `next` node
+* Unable to use a foreach or for loop to traverse the list. The `next` value is used to help guide traversal
+
