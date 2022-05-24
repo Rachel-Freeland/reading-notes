@@ -65,3 +65,4 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 18](Code401-Notes/Reading_18.md)
 - [Reading 19](Code401-Notes/Reading_19.md)
 - [Reading_26](Code401-Notes/Reading_26.md)
+- [Reading_27](Code401-Notes/Reading_27.md)
