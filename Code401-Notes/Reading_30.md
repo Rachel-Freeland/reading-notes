@@ -37,7 +37,6 @@
   * `contains()` --> will accept a key and return a bool if that key exists within the hashtable.
   * `getHash()` --> will accept a key as a string, conduct the hash, and return the index of the array where the 
      key:value should be placed.
-  * 
 
 
 ## Watch
