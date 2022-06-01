@@ -70,4 +70,5 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading_31](Code401-Notes/Reading_31.md)
 - [Reading_30](Code401-Notes/Reading_30.md)
 - [Reading_32](Code401-Notes/Reading_32.md)
+- [Reading_33](Code401-Notes/Reading_33.md)
 
