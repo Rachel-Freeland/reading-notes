@@ -74,6 +74,7 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.cess --watch
 </body>
 </html>
 ```
+
 <hr/>
 
 ### Next.js
