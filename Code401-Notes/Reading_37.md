@@ -58,7 +58,8 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.cess --watch
 
 * Start using Tailwind in HTML. Add the compiled CSS file to the `<head>` and start using the Tailwind utility 
   classes to style your content.
-```html
+
+```text
 <!doctype html>
 <html lang="en">
 <head>
@@ -74,7 +75,6 @@ npx tailwindcss -i ./src/input.css -o ./dist/output.cess --watch
 </body>
 </html>
 ```
-
 <hr/>
 
 ### Next.js
