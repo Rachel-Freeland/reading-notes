@@ -78,5 +78,6 @@ I will also note any observations and/or questions concerning the reading materi
 - [Reading 38](Code401-Notes/Reading_38.md)
 - [Reading 39](Code401-Notes/Reading_39.md)
 - [Reading 41](Code401-Notes/Reading_41.md)
-- [Reading 42](Code401-Notes/Reading_42.md)
-- [Reading_43](Code401-Notes/Reading_43.md)
+- [Reading 42a](Code401-Notes/Reading_42a.md)
+- [Reading 42b](Code401-Notes/Reading_42b.md)
+- [Reading 43](Code401-Notes/Reading_43.md)
